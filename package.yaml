@@ -30,7 +30,7 @@ executables:
     - stack-multi-exes-example
   exe2-exe:
     main:                Exe2.hs
-    source-dirs:         app
+    source-dirs:         exe2
     ghc-options:
       - -threaded
       - -rtsopts
