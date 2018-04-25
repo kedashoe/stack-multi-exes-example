@@ -1,6 +1,7 @@
-module Exe2 where
+module Main where
 
 import Lib
 
 main :: IO ()
-main = someFunc
+main = do
+  print "foo"
